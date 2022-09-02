@@ -137,14 +137,14 @@ function CodiceFiscale(cognome, nome, sesso, lNascita, provincia, giorno, mese, 
 
     //Calcolo della sedicesima cifra (carattere di controllo)
     let p6;
-    let p6_pari = [];
-    for(let i = 0; i < CodFiscale.length; i = i + 2) { //Caratteri del codice in posizione pari (0, 2, 4, 6, 8, 10, 12, 14)
-        p6_pari.push(CodFiscale[i])
+    let p6_dispari = [];
+    for(let i = 0; i <= CodFiscale.length; i = i + 2) { //Caratteri del codice in posizione dispari (1, 3, 5, 7, 9, 11, 13)
+        p6_dispari.push(CodFiscale[i])
     }
 
-    let p6_dispari = [];
-    for(let j = 1; j < CodFiscale.length; j = j + 2) { //Caratteri del codice in posizione dispari (1, 3, 5, 7, 9, 11, 13)
-        p6_dispari.push(CodFiscale[j])
+    let p6_pari = [];
+    for(let j = 1; j <= CodFiscale.length; j = j + 2) { //Caratteri del codice in posizione pari (0, 2, 4, 6, 8, 10, 12, 14)
+        p6_pari.push(CodFiscale[j])
     }
 
     let count_pari = 0;
@@ -523,6 +523,7 @@ function CodiceFiscale(cognome, nome, sesso, lNascita, provincia, giorno, mese, 
     p6 = Math.floor(p6);
     p6 = count_pari + count_dispari - (p6 * 26);
 
+    console.log(count_pari, count_dispari)
     console.log(p6) //resto
 
     switch(true) {
@@ -661,18 +662,22 @@ function CodiceFiscale(cognome, nome, sesso, lNascita, provincia, giorno, mese, 
 
 
 console.log(CodiceFiscale(
-    "stabile",
-    "mario",
+    "di maria",
+    "alessandro",
     "m",
-    "palermo",
-    "pa",
-    "10",
-    "3",
-    "2002"
+    "campobasso",
+    "cb",
+    "24",
+    "1",
+    "2003"
 ))
 
 function CodCatasto(a) {
     let codiciCatastali = [
+        {
+            ID: "B519",
+            COMUNE: "CAMPOBASSO"
+        },
         {
             ID: "A001",
             COMUNE: "ABANO TERME"
