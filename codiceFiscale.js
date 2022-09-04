@@ -662,15 +662,3 @@ function CodiceFiscale(cognome, nome, sesso, lNascita, provincia, giorno, mese, 
     return CodFiscale
 }
 
-
-console.log(CodiceFiscale(
-    "nastasi",
-    "daniel",
-    "m",
-    "castelvetrano",
-    "tp",
-    "29",
-    "7",
-    "2001"
-))
-
