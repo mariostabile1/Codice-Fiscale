@@ -144,12 +144,12 @@ function CodiceFiscale(cognome, nome, sesso, lNascita, provincia, giorno, mese, 
     //Calcolo della sedicesima cifra (carattere di controllo)
     let p6;
     let p6_pari = [];
-    for(let i = 0; i < CodFiscale.length; i = i + 2) { //Caratteri del codice in posizione pari (0, 2, 4, 6, 8, 10, 12, 14)
+    for(let i = 1; i < CodFiscale.length; i = i + 2) { //Caratteri del codice in posizione pari (0, 2, 4, 6, 8, 10, 12, 14)
         p6_pari.push(CodFiscale[i])
     }
 
     let p6_dispari = [];
-    for(let j = 1; j < CodFiscale.length; j = j + 2) { //Caratteri del codice in posizione dispari (1, 3, 5, 7, 9, 11, 13)
+    for(let j = 0; j < CodFiscale.length; j = j + 2) { //Caratteri del codice in posizione dispari (1, 3, 5, 7, 9, 11, 13)
         p6_dispari.push(CodFiscale[j])
     }
 
@@ -193,7 +193,7 @@ function CodiceFiscale(cognome, nome, sesso, lNascita, provincia, giorno, mese, 
             }
 
             case p6_pari[i] === "7": {
-                count_pari += 8;
+                count_pari += 7;
                 break;
             }
 
@@ -243,7 +243,7 @@ function CodiceFiscale(cognome, nome, sesso, lNascita, provincia, giorno, mese, 
             }
 
             case p6_pari[i] === "H": {
-                count_pari += 8;
+                count_pari += 7;
                 break;
             }
 
@@ -525,11 +525,8 @@ function CodiceFiscale(cognome, nome, sesso, lNascita, provincia, giorno, mese, 
         }
     }
 
-    p6 = ((count_pari + count_dispari) / 26);
+    p6 = (count_dispari + count_pari) % 26;
     p6 = Math.floor(p6);
-    p6 = count_pari + count_dispari - (p6 * 26);
-
-    console.log(p6) //resto
 
     switch(true) {
         case p6 === 0: {
@@ -667,13 +664,13 @@ function CodiceFiscale(cognome, nome, sesso, lNascita, provincia, giorno, mese, 
 
 
 console.log(CodiceFiscale(
-    "stabile",
-    "mario",
+    "nastasi",
+    "daniel",
     "m",
-    "palermo",
-    "pa",
-    "10",
-    "3",
-    "2002"
+    "castelvetrano",
+    "tp",
+    "29",
+    "7",
+    "2001"
 ))
 
