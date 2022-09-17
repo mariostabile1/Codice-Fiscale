@@ -1,4 +1,4 @@
-# Codice-Fiscale
+# Codice Fiscale
 Piccola funzione che calcola il codice fiscale
 
 Dati da inserire come parametri della funzione (nell'ordine seguente):
