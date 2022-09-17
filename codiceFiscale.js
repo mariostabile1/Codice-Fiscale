@@ -56,67 +56,21 @@ function CodiceFiscale(cognome, nome, sesso, lNascita, provincia, giorno, mese, 
     mese = mese.toUpperCase();
     CodFiscale = p1 + p2 + p3;
 
-    switch (true) {
-        case mese === "1" || mese === "GENNAIO": {
-            CodFiscale += "A";
-            break;
-        }
-
-        case mese === "2" || mese === "FEBBRAIO": {
-            CodFiscale += "B";
-            break;
-        }
-
-        case mese === "3" || mese === "MARZO": {
-            CodFiscale += "C";
-            break;
-        }
-
-        case mese === "4" || mese === "APRILE": {
-            CodFiscale += "D";
-            break;
-        }
-
-        case mese === "5" || mese === "MAGGIO": {
-            CodFiscale += "E";
-            break;
-        }
-
-        case mese === "6" || mese === "GIUGNO": {
-            CodFiscale += "H";
-            break;
-        }
-
-        case mese === "7" || mese === "LUGLIO": {
-            CodFiscale += "L";
-            break;
-        }
-
-        case mese === "8" || mese === "AGOSTO": {
-            CodFiscale += "M";
-            break;
-        }
-
-        case mese === "9" || mese === "SETTEMBRE": {
-            CodFiscale += "P";
-            break;
-        }
-
-        case mese === "10" || mese === "OTTOBRE": {
-            CodFiscale += "R";
-            break;
-        }
-
-        case mese === "11" || mese === "NOVEMBRE": {
-            CodFiscale += "S";
-            break;
-        }
-
-        case mese === "12" || mese === "DICEMBRE": {
-            CodFiscale += "T";
-            break;
-        }
+    let objMese = {
+        "1": "A",
+        "2": "B",
+        "3": "C",
+        "4": "D",
+        "5": "E",
+        "6": "H",
+        "7": "L",
+        "8": "M",
+        "9": "P",
+        "10": "R",
+        "11": "S",
+        "12": "T",
     }
+    CodFiscale += objMese[mese];
 
     //Calcolo delle quarte due cifre (giorno, sesso)
     let p4 = giorno;
@@ -156,509 +110,134 @@ function CodiceFiscale(cognome, nome, sesso, lNascita, provincia, giorno, mese, 
     let count_pari = 0;
     for(let i = 0; i < p6_pari.length; i++) {
         //Pari
-        switch(true) {
-            case p6_pari[i] === "0": {
-                count_pari += 0;
-                break;
-            }
-
-            case p6_pari[i] === "1": {
-                count_pari += 1;
-                break;
-            }
-
-            case p6_pari[i] === "2": {
-                count_pari += 2;
-                break;
-            }
-
-            case p6_pari[i] === "3": {
-                count_pari += 3;
-                break;
-            }
-
-            case p6_pari[i] === "4": {
-                count_pari += 4;
-                break;
-            }
-
-            case p6_pari[i] === "5": {
-                count_pari += 5;
-                break;
-            }
-
-            case p6_pari[i] === "6": {
-                count_pari += 6;
-                break;
-            }
-
-            case p6_pari[i] === "7": {
-                count_pari += 7;
-                break;
-            }
-
-            case p6_pari[i] === "8": {
-                count_pari += 8;
-                break;
-            }
-
-            case p6_pari[i] === "9": {
-                count_pari += 9;
-                break;
-            }
-            //##################################################
-            case p6_pari[i] === "A": {
-                count_pari += 0;
-                break;
-            }
-
-            case p6_pari[i] === "B": {
-                count_pari += 1;
-                break;
-            }
-
-            case p6_pari[i] === "C": {
-                count_pari += 2;
-                break;
-            }
-
-            case p6_pari[i] === "D": {
-                count_pari += 3;
-                break;
-            }
-
-            case p6_pari[i] === "E": {
-                count_pari += 4;
-                break;
-            }
-
-            case p6_pari[i] === "F": {
-                count_pari += 5;
-                break;
-            }
-
-            case p6_pari[i] === "G": {
-                count_pari += 6;
-                break;
-            }
-
-            case p6_pari[i] === "H": {
-                count_pari += 7;
-                break;
-            }
-
-            case p6_pari[i] === "I": {
-                count_pari += 8;
-                break;
-            }
-
-            case p6_pari[i] === "J": {
-                count_pari += 9;
-                break;
-            }
-
-            case p6_pari[i] === "K": {
-                count_pari += 10;
-                break;
-            }
-
-            case p6_pari[i] === "L": {
-                count_pari += 11;
-                break;
-            }
-
-            case p6_pari[i] === "M": {
-                count_pari += 12;
-                break;
-            }
-
-            case p6_pari[i] === "N": {
-                count_pari += 13;
-                break;
-            }
-
-            case p6_pari[i] === "O": {
-                count_pari += 14;
-                break;
-            }
-
-            case p6_pari[i] === "P": {
-                count_pari += 15;
-                break;
-            }
-
-            case p6_pari[i] === "Q": {
-                count_pari += 16;
-                break;
-            }
-
-            case p6_pari[i] === "R": {
-                count_pari += 17;
-                break;
-            }
-
-            case p6_pari[i] === "S": {
-                count_pari += 18;
-                break;
-            }
-
-            case p6_pari[i] === "T": {
-                count_pari += 19;
-                break;
-            }
-
-            case p6_pari[i] === "U": {
-                count_pari += 20;
-                break;
-            }
-
-            case p6_pari[i] === "V": {
-                count_pari += 21;
-                break;
-            }
-
-            case p6_pari[i] === "W": {
-                count_pari += 22;
-                break;
-            }
-
-            case p6_pari[i] === "X": {
-                count_pari += 23;
-                break;
-            }
-
-            case p6_pari[i] === "Y": {
-                count_pari += 24;
-                break;
-            }
-
-            case p6_pari[i] === "Z": {
-                count_pari += 25;
-                break;
-            }
+        let objCodPari = {
+            "0": 0,
+            "1": 1,
+            "2": 2,
+            "3": 3,
+            "4": 4,
+            "5": 5,
+            "6": 6,
+            "7": 7,
+            "8": 8,
+            "9": 9,
+            "A": 0,
+            "B": 1,
+            "C": 2,
+            "D": 3,
+            "E": 4,
+            "F": 5,
+            "G": 6,
+            "H": 7,
+            "I": 8,
+            "J": 9,
+            "K": 10,
+            "L": 11,
+            "M": 12,
+            "N": 13,
+            "O": 14,
+            "P": 15,
+            "Q": 16,
+            "R": 17,
+            "S": 18,
+            "T": 19,
+            "U": 20,
+            "V": 21,
+            "W": 22,
+            "X": 23,
+            "Y": 24,
+            "Z": 25,
         }
+        count_pari += objCodPari[p6_pari[i]];
     }
 
     let count_dispari = 0;
     for(let i = 0; i < p6_dispari.length; i++) {
         //Dispari
-        switch(true) {
-            case p6_dispari[i] === "0": {
-                count_dispari += 1;
-                break;
-            }
-
-            case p6_dispari[i] === "1": {
-                count_dispari += 0;
-                break;
-            }
-
-            case p6_dispari[i] === "2": {
-                count_dispari += 5;
-                break;
-            }
-
-            case p6_dispari[i] === "3": {
-                count_dispari += 7;
-                break;
-            }
-
-            case p6_pari[i] === "4": {
-                count_dispari += 9;
-                break;
-            }
-
-            case p6_dispari[i] === "5": {
-                count_dispari += 13;
-                break;
-            }
-
-            case p6_dispari[i] === "6": {
-                count_dispari += 15;
-                break;
-            }
-
-            case p6_dispari[i] === "7": {
-                count_dispari += 17;
-                break;
-            }
-
-            case p6_dispari[i] === "8": {
-                count_dispari += 19;
-                break;
-            }
-
-            case p6_dispari[i] === "9": {
-                count_dispari += 21;
-                break;
-            }
-            //##################################################
-            case p6_dispari[i] === "A": {
-                count_dispari += 1;
-                break;
-            }
-
-            case p6_dispari[i] === "B": {
-                count_dispari += 0;
-                break;
-            }
-
-            case p6_dispari[i] === "C": {
-                count_dispari += 5;
-                break;
-            }
-
-            case p6_dispari[i] === "D": {
-                count_dispari += 7;
-                break;
-            }
-
-            case p6_dispari[i] === "E": {
-                count_dispari += 9;
-                break;
-            }
-
-            case p6_dispari[i] === "F": {
-                count_dispari += 13;
-                break;
-            }
-
-            case p6_dispari[i] === "G": {
-                count_dispari += 15;
-                break;
-            }
-
-            case p6_dispari[i] === "H": {
-                count_dispari += 17;
-                break;
-            }
-
-            case p6_pari[i] === "I": {
-                count_dispari += 19;
-                break;
-            }
-
-            case p6_dispari[i] === "J": {
-                count_dispari += 21;
-                break;
-            }
-
-            case p6_dispari[i] === "K": {
-                count_dispari += 2;
-                break;
-            }
-
-            case p6_dispari[i] === "L": {
-                count_dispari += 4;
-                break;
-            }
-
-            case p6_dispari[i] === "M": {
-                count_dispari += 18;
-                break;
-            }
-
-            case p6_dispari[i] === "N": {
-                count_dispari += 20;
-                break;
-            }
-
-            case p6_dispari[i] === "O": {
-                count_dispari += 11;
-                break;
-            }
-
-            case p6_dispari[i] === "P": {
-                count_dispari += 3;
-                break;
-            }
-
-            case p6_dispari[i] === "Q": {
-                count_dispari += 6;
-                break;
-            }
-
-            case p6_dispari[i] === "R": {
-                count_dispari += 8;
-                break;
-            }
-
-            case p6_dispari[i] === "S": {
-                count_dispari += 12;
-                break;
-            }
-
-            case p6_dispari[i] === "T": {
-                count_dispari += 14;
-                break;
-            }
-
-            case p6_dispari[i] === "U": {
-                count_dispari += 16;
-                break;
-            }
-
-            case p6_dispari[i] === "V": {
-                count_dispari += 10;
-                break;
-            }
-
-            case p6_dispari[i] === "W": {
-                count_dispari += 22;
-                break;
-            }
-
-            case p6_dispari[i] === "X": {
-                count_dispari += 25;
-                break;
-            }
-
-            case p6_dispari[i] === "Y": {
-                count_dispari += 24;
-                break;
-            }
-
-            case p6_dispari[i] === "Z": {
-                count_dispari += 23;
-                break;
-            }
+        let objCodDispari = {
+            "0": 1,
+            "1": 0,
+            "2": 5,
+            "3": 7,
+            "4": 9,
+            "5": 13,
+            "6": 15,
+            "7": 17,
+            "8": 19,
+            "9": 21,
+            "A": 1,
+            "B": 0,
+            "C": 5,
+            "D": 7,
+            "E": 9,
+            "F": 13,
+            "G": 15,
+            "H": 17,
+            "I": 19,
+            "J": 21,
+            "K": 2,
+            "L": 4,
+            "M": 18,
+            "N": 20,
+            "O": 11,
+            "P": 3,
+            "Q": 6,
+            "R": 8,
+            "S": 12,
+            "T": 14,
+            "U": 16,
+            "V": 10,
+            "W": 22,
+            "X": 25,
+            "Y": 24,
+            "Z": 23,
         }
+        count_dispari += objCodDispari[p6_dispari[i]];
     }
-
+    console.log(count_pari);
+    console.log(count_dispari);
     p6 = (count_dispari + count_pari) % 26;
     p6 = Math.floor(p6);
 
-    switch(true) {
-        case p6 === 0: {
-            CodFiscale += "A";
-            break;
-        }
-
-        case p6 === 1: {
-            CodFiscale += "B";
-            break;
-        }
-
-        case p6 === 2: {
-            CodFiscale += "C";
-            break;
-        }
-
-        case p6 === 3: {
-            CodFiscale += "D";
-            break;
-        }
-
-        case p6 === 4: {
-            CodFiscale += "E";
-            break;
-        }
-
-        case p6 === 5: {
-            CodFiscale += "F";
-            break;
-        }
-
-        case p6 === 6: {
-            CodFiscale += "G";
-            break;
-        }
-
-        case p6 === 7: {
-            CodFiscale += "H";
-            break;
-        }
-
-        case p6 === 8: {
-            CodFiscale += "I";
-            break;
-        }
-
-        case p6 === 9: {
-            CodFiscale += "J";
-            break;
-        }
-
-        case p6 === 10: {
-            CodFiscale += "K";
-            break;
-        }
-
-        case p6 === 11: {
-            CodFiscale += "L";
-            break;
-        }
-
-        case p6 === 12: {
-            CodFiscale += "M";
-            break;
-        }
-
-        case p6 === 13: {
-            CodFiscale += "N";
-            break;
-        }
-
-        case p6 === 14: {
-            CodFiscale += "O";
-            break;
-        }
-
-        case p6 === 15: {
-            CodFiscale += "P";
-            break;
-        }
-
-        case p6 === 16: {
-            CodFiscale += "Q";
-            break;
-        }
-
-        case p6 === 17: {
-            CodFiscale += "R";
-            break;
-        }
-
-        case p6 === 18: {
-            CodFiscale += "S";
-            break;
-        }
-
-        case p6 === 19: {
-            CodFiscale += "T";
-            break;
-        }
-
-        case p6 === 20: {
-            CodFiscale += "U";
-            break;
-        }
-
-        case p6 === 21: {
-            CodFiscale += "V";
-            break;
-        }
-
-        case p6 === 22: {
-            CodFiscale += "W";
-            break;
-        }
-
-        case p6 === 23: {
-            CodFiscale += "X";
-            break;
-        }
-
-        case p6 === 24: {
-            CodFiscale += "Y";
-            break;
-        }
-
-        case p6 === 25: {
-            CodFiscale += "Z";
-            break;
-        }
+    let objCodControllo = {
+        "0": "A",
+        "1": "B",
+        "2": "C",
+        "3": "D",
+        "4": "E",
+        "5": "F",
+        "6": "G",
+        "7": "H",
+        "8": "I",
+        "9": "J",
+        "10": "K",
+        "11": "L",
+        "12": "M",
+        "13": "N",
+        "14": "O",
+        "15": "P",
+        "16": "Q",
+        "17": "R",
+        "18": "S",
+        "19": "T",
+        "20": "U",
+        "21": "V",
+        "22": "W",
+        "23": "X",
+        "24": "Y",
+        "24": "Z",
     }
+    CodFiscale += objCodControllo[p6];
     return CodFiscale
 }
 
+console.log(CodiceFiscale(
+    "stabile",
+    "mario",
+    "m",
+    "palermo",
+    "pa",
+    "10",
+    "3",
+    "2002",
+))
