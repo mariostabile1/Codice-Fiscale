@@ -194,8 +194,6 @@ function CodiceFiscale(cognome, nome, sesso, lNascita, provincia, giorno, mese, 
         }
         count_dispari += objCodDispari[p6_dispari[i]];
     }
-    console.log(count_pari);
-    console.log(count_dispari);
     p6 = (count_dispari + count_pari) % 26;
     p6 = Math.floor(p6);
 
