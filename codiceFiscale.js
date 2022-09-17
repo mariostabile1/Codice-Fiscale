@@ -230,14 +230,3 @@ function CodiceFiscale(cognome, nome, sesso, lNascita, provincia, giorno, mese, 
     CodFiscale += objCodControllo[p6];
     return CodFiscale
 }
-
-console.log(CodiceFiscale(
-    "stabile",
-    "mario",
-    "m",
-    "palermo",
-    "pa",
-    "10",
-    "3",
-    "2002",
-))
