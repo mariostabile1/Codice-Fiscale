@@ -13,7 +13,7 @@ Dati da inserire come parametri della funzione (nell'ordine seguente):
 - ANNO (in forma completa es: 2022)
 
 Esempio di inserimento: 
-CodiceFiscale("mario", "rossi", "m", "milano", "mi", "11", "4", "1997");
+CodiceFiscale("rossi", "mario", "m", "milano", "mi", "11", "4", "1997");
 
 Esempio di risultato:
 RSSMRA97D11F205N
