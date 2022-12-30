@@ -1,19 +1,23 @@
-# Codice Fiscale
-Piccola funzione che calcola il codice fiscale
+# Fiscal Code
+Small JS function that calculate Italian fiscal code.
 
-Dati da inserire come parametri della funzione (nell'ordine seguente):
+Parameters to insert in the function (in the following order): 
+```
+- LAST NAME
+- FIRST NAME
+- GENDER (m o f)
+- BIRTHPLACE
+- PROVINCE (standard format ex: RO, TP, ...)
+- DAY OF BIRTH
+- MONTH OF BIRTH (numeric form ex: 3)
+- YEAR OF BIRTH (extended form ex: 2022)
+```
 
-- COGNOME
-- NOME
-- SESSO (m o f)
-- COMUNE DI NASCITA
-- PROVINCIA (nel formato standard es: RO, TP, ...)
-- GIORNO
-- MESE (in forma numerica es: 3)
-- ANNO (in forma completa es: 2022)
-
-Esempio di inserimento: 
+Insert example: 
 CodiceFiscale("rossi", "mario", "m", "milano", "mi", "11", "4", "1997");
 
-Esempio di risultato:
+Result example:
 RSSMRA97D11F205N
+
+**PS: The function don't support fiscal code calculation for people born outside Italy.**
+    **JSON file may not be complete even in the smallest municipalities.**
