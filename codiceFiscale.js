@@ -1,8 +1,10 @@
-function CodiceFiscale(cognome, nome, sesso, lNascita, provincia, giorno, mese, anno) {
+function CodiceFiscale(cognome, nome, sesso, lNascita, giorno, mese, anno) { //Parametro provincia rimosso per inutilità nel calcolo del codice fiscale
     let CodFiscale = "";
     let consonanti = /[bcdfghjklmnpqrstvwxyz]/gi
     let vocali = /[aeiou]/gi
-    const data = require("./CodiciComuni.json");
+    const dataComuni = require("./CodiciComuni.json");
+    const dataNazioni = require("./CodiciNazioni.json");
+
 
     //Calcolo delle prime tre cifre (cognome)
     let p1 = cognome.match(consonanti);
@@ -88,9 +90,16 @@ function CodiceFiscale(cognome, nome, sesso, lNascita, provincia, giorno, mese, 
 
     //Calcolo delle quinte quattro cifre (comune)
     let p5;
-    for(let i = 0; i < data.length; i++) {
-        if(data[i].COMUNE === lNascita.toUpperCase()) {
-            p5 = data[i].ID;
+    for(let i = 0; i < dataComuni.length; i++) {
+        if(dataComuni[i].COMUNE === lNascita.toUpperCase()) {
+            p5 = dataComuni[i].ID;
+        }
+        else {
+            for(let j = 0; j < dataNazioni.length; j++) {
+                if(dataNazioni[j].NAZIONE.toUpperCase() === lNascita.toUpperCase()) {
+                    p5 = dataNazioni[j].ID;
+                }
+            }
         }
     }
     CodFiscale += p5;

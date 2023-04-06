@@ -1,0 +1,902 @@
+[
+  {
+    "NAZIONE": "Italia",
+    "ID": ""
+  },
+  {
+    "NAZIONE": "Albania",
+    "ID": "Z100"
+  },
+  {
+    "NAZIONE": "Andorra",
+    "ID": "Z101"
+  },
+  {
+    "NAZIONE": "Austria",
+    "ID": "Z102"
+  },
+  {
+    "NAZIONE": "Belgio",
+    "ID": "Z103"
+  },
+  {
+    "NAZIONE": "Bulgaria",
+    "ID": "Z104"
+  },
+  {
+    "NAZIONE": "Danimarca",
+    "ID": "Z107"
+  },
+  {
+    "NAZIONE": "Finlandia",
+    "ID": "Z109"
+  },
+  {
+    "NAZIONE": "Francia",
+    "ID": "Z110"
+  },
+  {
+    "NAZIONE": "Germania",
+    "ID": "Z112"
+  },
+  {
+    "NAZIONE": "Regno Unito",
+    "ID": "Z114"
+  },
+  {
+    "NAZIONE": "Grecia",
+    "ID": "Z115"
+  },
+  {
+    "NAZIONE": "Irlanda",
+    "ID": "Z116"
+  },
+  {
+    "NAZIONE": "Islanda",
+    "ID": "Z117"
+  },
+  {
+    "NAZIONE": "Liechtenstein",
+    "ID": "Z119"
+  },
+  {
+    "NAZIONE": "Lussemburgo",
+    "ID": "Z120"
+  },
+  {
+    "NAZIONE": "Malta",
+    "ID": "Z121"
+  },
+  {
+    "NAZIONE": "Monaco",
+    "ID": "Z123"
+  },
+  {
+    "NAZIONE": "Norvegia",
+    "ID": "Z125"
+  },
+  {
+    "NAZIONE": "Paesi Bassi",
+    "ID": "Z126"
+  },
+  {
+    "NAZIONE": "Polonia",
+    "ID": "Z127"
+  },
+  {
+    "NAZIONE": "Portogallo",
+    "ID": "Z128"
+  },
+  {
+    "NAZIONE": "Romania",
+    "ID": "Z129"
+  },
+  {
+    "NAZIONE": "San Marino",
+    "ID": "Z130"
+  },
+  {
+    "NAZIONE": "Spagna",
+    "ID": "Z131"
+  },
+  {
+    "NAZIONE": "Svezia",
+    "ID": "Z132"
+  },
+  {
+    "NAZIONE": "Svizzera",
+    "ID": "Z133"
+  },
+  {
+    "NAZIONE": "Ucraina",
+    "ID": "Z138"
+  },
+  {
+    "NAZIONE": "Ungheria",
+    "ID": "Z134"
+  },
+  {
+    "NAZIONE": "Federazione russa",
+    "ID": "Z154"
+  },
+  {
+    "NAZIONE": "Stato della Città del Vaticano",
+    "ID": "Z106"
+  },
+  {
+    "NAZIONE": "Estonia",
+    "ID": "Z144"
+  },
+  {
+    "NAZIONE": "Lettonia",
+    "ID": "Z145"
+  },
+  {
+    "NAZIONE": "Lituania",
+    "ID": "Z146"
+  },
+  {
+    "NAZIONE": "Croazia",
+    "ID": "Z149"
+  },
+  {
+    "NAZIONE": "Slovenia",
+    "ID": "Z150"
+  },
+  {
+    "NAZIONE": "Bosnia-Erzegovina",
+    "ID": "Z153"
+  },
+  {
+    "NAZIONE": "Macedonia del Nord",
+    "ID": "Z148"
+  },
+  {
+    "NAZIONE": "Moldova",
+    "ID": "Z140"
+  },
+  {
+    "NAZIONE": "Slovacchia",
+    "ID": "Z155"
+  },
+  {
+    "NAZIONE": "Bielorussia",
+    "ID": "Z139"
+  },
+  {
+    "NAZIONE": "Repubblica ceca",
+    "ID": "Z156"
+  },
+  {
+    "NAZIONE": "Montenegro",
+    "ID": "Z159"
+  },
+  {
+    "NAZIONE": "Serbia",
+    "ID": "Z158"
+  },
+  {
+    "NAZIONE": "Kosovo",
+    "ID": "Z160"
+  },
+  {
+    "NAZIONE": "Afghanistan",
+    "ID": "Z200"
+  },
+  {
+    "NAZIONE": "Arabia Saudita",
+    "ID": "Z203"
+  },
+  {
+    "NAZIONE": "Bahrein",
+    "ID": "Z204"
+  },
+  {
+    "NAZIONE": "Bangladesh",
+    "ID": "Z249"
+  },
+  {
+    "NAZIONE": "Bhutan",
+    "ID": "Z205"
+  },
+  {
+    "NAZIONE": "Myanmar/Birmania",
+    "ID": "Z206"
+  },
+  {
+    "NAZIONE": "Brunei Darussalam",
+    "ID": "Z207"
+  },
+  {
+    "NAZIONE": "Cambogia",
+    "ID": "Z208"
+  },
+  {
+    "NAZIONE": "Sri Lanka",
+    "ID": "Z209"
+  },
+  {
+    "NAZIONE": "Cina",
+    "ID": "Z210"
+  },
+  {
+    "NAZIONE": "Cipro",
+    "ID": "Z211"
+  },
+  {
+    "NAZIONE": "Corea del Nord",
+    "ID": "Z214"
+  },
+  {
+    "NAZIONE": "Corea del Sud",
+    "ID": "Z213"
+  },
+  {
+    "NAZIONE": "Emirati Arabi Uniti",
+    "ID": "Z215"
+  },
+  {
+    "NAZIONE": "Filippine",
+    "ID": "Z216"
+  },
+  {
+    "NAZIONE": "Palestina",
+    "ID": "Z161"
+  },
+  {
+    "NAZIONE": "Giappone",
+    "ID": "Z219"
+  },
+  {
+    "NAZIONE": "Giordania",
+    "ID": "Z220"
+  },
+  {
+    "NAZIONE": "India",
+    "ID": "Z222"
+  },
+  {
+    "NAZIONE": "Indonesia",
+    "ID": "Z223"
+  },
+  {
+    "NAZIONE": "Iran",
+    "ID": "Z224"
+  },
+  {
+    "NAZIONE": "Iraq",
+    "ID": "Z225"
+  },
+  {
+    "NAZIONE": "Israele",
+    "ID": "Z226"
+  },
+  {
+    "NAZIONE": "Kuwait",
+    "ID": "Z227"
+  },
+  {
+    "NAZIONE": "Laos",
+    "ID": "Z228"
+  },
+  {
+    "NAZIONE": "Libano",
+    "ID": "Z229"
+  },
+  {
+    "NAZIONE": "Timor Leste",
+    "ID": "Z242"
+  },
+  {
+    "NAZIONE": "Maldive",
+    "ID": "Z232"
+  },
+  {
+    "NAZIONE": "Malaysia",
+    "ID": "Z247"
+  },
+  {
+    "NAZIONE": "Mongolia",
+    "ID": "Z233"
+  },
+  {
+    "NAZIONE": "Nepal",
+    "ID": "Z234"
+  },
+  {
+    "NAZIONE": "Oman",
+    "ID": "Z235"
+  },
+  {
+    "NAZIONE": "Pakistan",
+    "ID": "Z236"
+  },
+  {
+    "NAZIONE": "Qatar",
+    "ID": "Z237"
+  },
+  {
+    "NAZIONE": "Singapore",
+    "ID": "Z248"
+  },
+  {
+    "NAZIONE": "Siria",
+    "ID": "Z240"
+  },
+  {
+    "NAZIONE": "Thailandia",
+    "ID": "Z241"
+  },
+  {
+    "NAZIONE": "Turchia",
+    "ID": "Z243"
+  },
+  {
+    "NAZIONE": "Vietnam",
+    "ID": "Z251"
+  },
+  {
+    "NAZIONE": "Yemen",
+    "ID": "Z246"
+  },
+  {
+    "NAZIONE": "Kazakhstan",
+    "ID": "Z255"
+  },
+  {
+    "NAZIONE": "Uzbekistan",
+    "ID": "Z259"
+  },
+  {
+    "NAZIONE": "Armenia",
+    "ID": "Z252"
+  },
+  {
+    "NAZIONE": "Azerbaigian",
+    "ID": "Z253"
+  },
+  {
+    "NAZIONE": "Georgia",
+    "ID": "Z254"
+  },
+  {
+    "NAZIONE": "Kirghizistan",
+    "ID": "Z256"
+  },
+  {
+    "NAZIONE": "Tagikistan",
+    "ID": "Z257"
+  },
+  {
+    "NAZIONE": "Taiwan",
+    "ID": "Z217"
+  },
+  {
+    "NAZIONE": "Turkmenistan",
+    "ID": "Z258"
+  },
+  {
+    "NAZIONE": "Algeria",
+    "ID": "Z301"
+  },
+  {
+    "NAZIONE": "Angola",
+    "ID": "Z302"
+  },
+  {
+    "NAZIONE": "Costa d'Avorio",
+    "ID": "Z313"
+  },
+  {
+    "NAZIONE": "Benin",
+    "ID": "Z314"
+  },
+  {
+    "NAZIONE": "Botswana",
+    "ID": "Z358"
+  },
+  {
+    "NAZIONE": "Burkina Faso",
+    "ID": "Z354"
+  },
+  {
+    "NAZIONE": "Burundi",
+    "ID": "Z305"
+  },
+  {
+    "NAZIONE": "Camerun",
+    "ID": "Z306"
+  },
+  {
+    "NAZIONE": "Capo Verde",
+    "ID": "Z307"
+  },
+  {
+    "NAZIONE": "Repubblica Centrafricana",
+    "ID": "Z308"
+  },
+  {
+    "NAZIONE": "Ciad",
+    "ID": "Z309"
+  },
+  {
+    "NAZIONE": "Comore",
+    "ID": "Z310"
+  },
+  {
+    "NAZIONE": "Congo",
+    "ID": "Z311"
+  },
+  {
+    "NAZIONE": "Egitto",
+    "ID": "Z336"
+  },
+  {
+    "NAZIONE": "Etiopia",
+    "ID": "Z315"
+  },
+  {
+    "NAZIONE": "Gabon",
+    "ID": "Z316"
+  },
+  {
+    "NAZIONE": "Gambia",
+    "ID": "Z317"
+  },
+  {
+    "NAZIONE": "Ghana",
+    "ID": "Z318"
+  },
+  {
+    "NAZIONE": "Gibuti",
+    "ID": "Z361"
+  },
+  {
+    "NAZIONE": "Guinea",
+    "ID": "Z319"
+  },
+  {
+    "NAZIONE": "Guinea-Bissau",
+    "ID": "Z320"
+  },
+  {
+    "NAZIONE": "Guinea equatoriale",
+    "ID": "Z321"
+  },
+  {
+    "NAZIONE": "Kenya",
+    "ID": "Z322"
+  },
+  {
+    "NAZIONE": "Lesotho",
+    "ID": "Z359"
+  },
+  {
+    "NAZIONE": "Liberia",
+    "ID": "Z325"
+  },
+  {
+    "NAZIONE": "Libia",
+    "ID": "Z326"
+  },
+  {
+    "NAZIONE": "Madagascar",
+    "ID": "Z327"
+  },
+  {
+    "NAZIONE": "Malawi",
+    "ID": "Z328"
+  },
+  {
+    "NAZIONE": "Mali",
+    "ID": "Z329"
+  },
+  {
+    "NAZIONE": "Marocco",
+    "ID": "Z330"
+  },
+  {
+    "NAZIONE": "Mauritania",
+    "ID": "Z331"
+  },
+  {
+    "NAZIONE": "Maurizio",
+    "ID": "Z332"
+  },
+  {
+    "NAZIONE": "Mozambico",
+    "ID": "Z333"
+  },
+  {
+    "NAZIONE": "Namibia",
+    "ID": "Z300"
+  },
+  {
+    "NAZIONE": "Niger",
+    "ID": "Z334"
+  },
+  {
+    "NAZIONE": "Nigeria",
+    "ID": "Z335"
+  },
+  {
+    "NAZIONE": "Ruanda",
+    "ID": "Z338"
+  },
+  {
+    "NAZIONE": "Sao Tomé e Principe",
+    "ID": "Z341"
+  },
+  {
+    "NAZIONE": "Seychelles",
+    "ID": "Z342"
+  },
+  {
+    "NAZIONE": "Senegal",
+    "ID": "Z343"
+  },
+  {
+    "NAZIONE": "Sierra Leone",
+    "ID": "Z344"
+  },
+  {
+    "NAZIONE": "Somalia",
+    "ID": "Z345"
+  },
+  {
+    "NAZIONE": "Sudafrica",
+    "ID": "Z347"
+  },
+  {
+    "NAZIONE": "Sudan",
+    "ID": "Z348"
+  },
+  {
+    "NAZIONE": "Eswatini",
+    "ID": "Z349"
+  },
+  {
+    "NAZIONE": "Tanzania",
+    "ID": "Z357"
+  },
+  {
+    "NAZIONE": "Togo",
+    "ID": "Z351"
+  },
+  {
+    "NAZIONE": "Tunisia",
+    "ID": "Z352"
+  },
+  {
+    "NAZIONE": "Uganda",
+    "ID": "Z353"
+  },
+  {
+    "NAZIONE": "Repubblica Democratica del Congo",
+    "ID": "Z312"
+  },
+  {
+    "NAZIONE": "Zambia",
+    "ID": "Z355"
+  },
+  {
+    "NAZIONE": "Zimbabwe",
+    "ID": "Z337"
+  },
+  {
+    "NAZIONE": "Eritrea",
+    "ID": "Z368"
+  },
+  {
+    "NAZIONE": "Sud Sudan",
+    "ID": "Z907"
+  },
+  {
+    "NAZIONE": "Antigua e Barbuda",
+    "ID": "Z532"
+  },
+  {
+    "NAZIONE": "Bahamas",
+    "ID": "Z502"
+  },
+  {
+    "NAZIONE": "Barbados",
+    "ID": "Z522"
+  },
+  {
+    "NAZIONE": "Belize",
+    "ID": "Z512"
+  },
+  {
+    "NAZIONE": "Canada",
+    "ID": "Z401"
+  },
+  {
+    "NAZIONE": "Costa Rica",
+    "ID": "Z503"
+  },
+  {
+    "NAZIONE": "Cuba",
+    "ID": "Z504"
+  },
+  {
+    "NAZIONE": "Dominica",
+    "ID": "Z526"
+  },
+  {
+    "NAZIONE": "Repubblica Dominicana",
+    "ID": "Z505"
+  },
+  {
+    "NAZIONE": "El Salvador",
+    "ID": "Z506"
+  },
+  {
+    "NAZIONE": "Giamaica",
+    "ID": "Z507"
+  },
+  {
+    "NAZIONE": "Grenada",
+    "ID": "Z524"
+  },
+  {
+    "NAZIONE": "Guatemala",
+    "ID": "Z509"
+  },
+  {
+    "NAZIONE": "Haiti",
+    "ID": "Z510"
+  },
+  {
+    "NAZIONE": "Honduras",
+    "ID": "Z511"
+  },
+  {
+    "NAZIONE": "Messico",
+    "ID": "Z514"
+  },
+  {
+    "NAZIONE": "Nicaragua",
+    "ID": "Z515"
+  },
+  {
+    "NAZIONE": "Panama",
+    "ID": "Z516"
+  },
+  {
+    "NAZIONE": "Santa Lucia",
+    "ID": "Z527"
+  },
+  {
+    "NAZIONE": "Saint Vincent e Grenadine",
+    "ID": "Z528"
+  },
+  {
+    "NAZIONE": "Saint Kitts e Nevis",
+    "ID": "Z533"
+  },
+  {
+    "NAZIONE": "Stati Uniti d'America",
+    "ID": "Z404"
+  },
+  {
+    "NAZIONE": "Argentina",
+    "ID": "Z600"
+  },
+  {
+    "NAZIONE": "Bolivia",
+    "ID": "Z601"
+  },
+  {
+    "NAZIONE": "Brasile",
+    "ID": "Z602"
+  },
+  {
+    "NAZIONE": "Cile",
+    "ID": "Z603"
+  },
+  {
+    "NAZIONE": "Colombia",
+    "ID": "Z604"
+  },
+  {
+    "NAZIONE": "Ecuador",
+    "ID": "Z605"
+  },
+  {
+    "NAZIONE": "Guyana",
+    "ID": "Z606"
+  },
+  {
+    "NAZIONE": "Paraguay",
+    "ID": "Z610"
+  },
+  {
+    "NAZIONE": "Perù",
+    "ID": "Z611"
+  },
+  {
+    "NAZIONE": "Suriname",
+    "ID": "Z608"
+  },
+  {
+    "NAZIONE": "Trinidad e Tobago",
+    "ID": "Z612"
+  },
+  {
+    "NAZIONE": "Uruguay",
+    "ID": "Z613"
+  },
+  {
+    "NAZIONE": "Venezuela",
+    "ID": "Z614"
+  },
+  {
+    "NAZIONE": "Australia",
+    "ID": "Z700"
+  },
+  {
+    "NAZIONE": "Figi",
+    "ID": "Z704"
+  },
+  {
+    "NAZIONE": "Kiribati",
+    "ID": "Z731"
+  },
+  {
+    "NAZIONE": "Isole Marshall",
+    "ID": "Z711"
+  },
+  {
+    "NAZIONE": "Stati Federati di Micronesia",
+    "ID": "Z735"
+  },
+  {
+    "NAZIONE": "Nauru",
+    "ID": "Z713"
+  },
+  {
+    "NAZIONE": "Nuova Zelanda",
+    "ID": "Z719"
+  },
+  {
+    "NAZIONE": "Palau",
+    "ID": "Z734"
+  },
+  {
+    "NAZIONE": "Papua Nuova Guinea",
+    "ID": "Z730"
+  },
+  {
+    "NAZIONE": "Isole Salomone",
+    "ID": "Z724"
+  },
+  {
+    "NAZIONE": "Samoa",
+    "ID": "Z726"
+  },
+  {
+    "NAZIONE": "Tonga",
+    "ID": "Z728"
+  },
+  {
+    "NAZIONE": "Tuvalu",
+    "ID": "Z732"
+  },
+  {
+    "NAZIONE": "Vanuatu",
+    "ID": "Z733"
+  },
+  {
+    "NAZIONE": "Nuova Caledonia",
+    "ID": "Z716"
+  },
+  {
+    "NAZIONE": "Saint-Martin (FR)",
+    "ID": ""
+  },
+  {
+    "NAZIONE": "Sahara occidentale",
+    "ID": "Z339"
+  },
+  {
+    "NAZIONE": "Saint-Barthélemy",
+    "ID": ""
+  },
+  {
+    "NAZIONE": "Bermuda",
+    "ID": "Z400"
+  },
+  {
+    "NAZIONE": "Isole Cook (NZ)",
+    "ID": "Z703"
+  },
+  {
+    "NAZIONE": "Gibilterra",
+    "ID": "Z113"
+  },
+  {
+    "NAZIONE": "Isole Cayman",
+    "ID": "Z530"
+  },
+  {
+    "NAZIONE": "Anguilla",
+    "ID": "Z529"
+  },
+  {
+    "NAZIONE": "Polinesia francese",
+    "ID": "Z723"
+  },
+  {
+    "NAZIONE": "Isole Fær Øer",
+    "ID": "Z108"
+  },
+  {
+    "NAZIONE": "Jersey",
+    "ID": ""
+  },
+  {
+    "NAZIONE": "Aruba",
+    "ID": "Z501"
+  },
+  {
+    "NAZIONE": "Sint Maarten (NL)",
+    "ID": ""
+  },
+  {
+    "NAZIONE": "Groenlandia",
+    "ID": "Z402"
+  },
+  {
+    "NAZIONE": "Sark",
+    "ID": ""
+  },
+  {
+    "NAZIONE": "Guernsey",
+    "ID": ""
+  },
+  {
+    "NAZIONE": "Isole Falkland (Malvine)",
+    "ID": "Z609"
+  },
+  {
+    "NAZIONE": "Isola di Man",
+    "ID": "Z122"
+  },
+  {
+    "NAZIONE": "Montserrat",
+    "ID": "Z531"
+  },
+  {
+    "NAZIONE": "Curaçao",
+    "ID": ""
+  },
+  {
+    "NAZIONE": "Isole Pitcairn",
+    "ID": "Z722"
+  },
+  {
+    "NAZIONE": "Saint Pierre e Miquelon",
+    "ID": "Z403"
+  },
+  {
+    "NAZIONE": "Sant'Elena",
+    "ID": "Z340"
+  },
+  {
+    "NAZIONE": "Terre australi e antartiche francesi",
+    "ID": ""
+  },
+  {
+    "NAZIONE": "Isole Turks e Caicos",
+    "ID": "Z519"
+  },
+  {
+    "NAZIONE": "Isole Vergini britanniche",
+    "ID": "Z525"
+  },
+  {
+    "NAZIONE": "Wallis e Futuna",
+    "ID": "Z729"
+  }
+]
