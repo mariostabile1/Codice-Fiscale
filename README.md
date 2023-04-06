@@ -37,8 +37,8 @@ Result example:
 RSSMRA97D11Z110R
 ```
 
-**Added support for the calculation of tax codes for the population born abroad.**
+**-Added support for the calculation of tax codes for the population born abroad.**
 
-**Removed parameter "provincia" becouse, useless for the fiscal code calculation**
+**-Removed parameter "provincia" becouse, useless for the fiscal code calculation**
 
-**JSON files may not be complete even in the smallest municipalities or  nations.**
+**-JSON files may not be complete even in the smallest municipalities or  nations.**
